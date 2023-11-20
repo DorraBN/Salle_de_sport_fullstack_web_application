@@ -1,0 +1,292 @@
+
+
+  .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #1a1d1d;
+  color: white;
+  padding: 0 20px;
+}
+img{
+  width: 20%;
+  height: 10%;
+  margin-right: 300px;
+  margin-top: 100px;
+}
+
+header {
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15)),
+      url("/assets/k3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: changebackground 10s ease infinite;
+  }
+
+.search-form {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+
+.search-form input[type="text"] {
+  width: 200px;
+  padding: 5px 10px;
+  margin-right: 5px; /* adjust this value to bring the input closer to the button */
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-form button[type="submit"] {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-form button[type="submit"] i {
+  font-size: 16px;
+}
+
+#k{
+background-color: rgb(200, 48, 48);
+width: 1500px;
+height:90px;
+
+
+}
+
+.search-form button[type="submit"]:hover i {
+  color: #ffc107;
+}
+
+  
+  nav .logo {
+    width: 25%;
+    text-align: center;
+    margin-top: 0;
+    /*background: red;*/
+  }
+  
+  nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  .navigation a{
+      position: relative;
+      font-size: 1em;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      margin-left: 40px;
+    }
+    .navigation .btnlogin-popup{
+      width: 130px;
+      height: 50px;
+      background: transparent;
+      border: 2px solid #fff;
+      outline: none;
+      border-radius: 6px;
+      cursor: pointer
+    ;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+    }
+    .navigation .btnlogin-popup:hover{
+      background: #fff;
+      color: #162938;
+    }
+    .input-box .icon{
+      position: absolute;
+      right: 8px;
+      font-size: 1.2em;
+      color: #162938;
+      line-height: 57px;
+    }
+    .navigation a::after{
+      content: ''
+      ;
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 80%;
+      height: 2px;
+      background: #fff;
+      border-radius: 8px;
+
+transform: scaleX(0); transition: transform .5s; }
+.navigation a:hover::after{
+transform-origin: left;
+transform:scaleX(1);
+}
+  
+  nav .menu a:first-child {
+    color: #8aecd8;
+  }
+  main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  section h3 {
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  section h1 {
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+  }
+  
+  section p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  section a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+  
+  section .btnone {
+
+    background: transparent;
+    color: #fff;
+    border: 2px solid #000;
+ 
+  }
+  
+  .btnone:hover {
+    background: rgb(200, 48, 48);
+    color: white;
+    font-weight: 600;
+    border: 2px solid #000;
+  
+  }
+  #m{
+    margin-right: 700px;
+    margin-bottom: 200px;
+  }
+  
+  section .btntwo {
+    background: rgb(200, 48, 48);
+    color: #fff;
+    border: 2px solid  rgb(200, 48, 48) ;
+ 
+    font-weight: 400;
+  }
+  
+  .btntwo:hover {
+    background: rgb(200, 48, 48);
+    color: white;
+    font-weight: 500;
+    border: 2px solid rgb(200, 48, 48);
+  
+  }
+  
+i{
+  color: #fff;
+}
+  
+ 
+
+
+  
+  
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+.card1 {
+    background-color: #162938;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 290px; /* Ajustez la largeur selon vos besoins */
+    text-align: center;
+}
+.card2 {
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 280px; /* Ajustez la largeur selon vos besoins */
+  text-align: center;
+}
+#m1 {
+ 
+  align-items: center;
+  font-size: 50px;
+  color: #fff;
+  margin-top: 30px; /* Ajustez selon vos besoins */
+ 
+}
+
+#m1 img {
+  margin-right: 720px;
+  width: 10%;
+  height: 10%;
+   margin-top: 100px; 
+}
+
+#m {
+  display: flex;
+  margin-top: 20px; /* Ajustez selon vos besoins */
+  margin-left: 200px;
+}
+#m1 p{
+  margin-right: 420px;
+font-size: 50px;
+}
+
+
+p {
+    margin: 10px 0;
+}
+
+
+
+
