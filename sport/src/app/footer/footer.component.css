@@ -95,10 +95,37 @@ footer {
     color: #fff;
     height: 280px;
   }
-  .newletter .right,
-  .newletter .left {
+
+
+
+
+
+
+  .newletter .flexSB {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Ajout de cette ligne */
+}
+
+.newletter .right,
+.newletter .left {
     padding-right: 50px;
-  }
+    flex: 1; /* Ajout de cette ligne pour que les deux côtés occupent le même espace */
+}
+
+.newletter input {
+    width: 80%; /* Modification de la largeur à 100% pour occuper tout l'espace disponible */
+    padding: 20px;
+    border: none;
+    outline: none;
+    height: 30px;
+    border-bottom: 2px solid #000;
+    /* margin-left: 750px; // Cette ligne est supprimée car elle peut causer des problèmes d'alignement */
+}
+
+
+
+ 
   .newletter h1 {
     color: #fff;
     font-size: 30px;
@@ -110,16 +137,6 @@ footer {
     justify-content: space-between;
     align-items: center;
   
-  }
-  .newletter input {
-    width: 30%;
-    padding: 20px;
-    border: none;
-    outline: none;
-    height: 30px;
-    border-bottom: 2px solid #000;
-    margin-left: 750px;
- 
   }
   .newletter i {
    
@@ -188,7 +205,7 @@ footer {
     cursor: pointer;
     transition: 0.3s;
     margin: 0;
-    width:130px;
+    width:100px;
    
     text-align: center;
     align-items: center;

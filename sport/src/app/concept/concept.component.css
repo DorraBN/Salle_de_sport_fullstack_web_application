@@ -84,13 +84,22 @@ width: 15%;
   
   }
   
-  p {
+  #m {
     font-size: 16px;
     color: #fff;
-    margin-top: 400px;
+    margin-top: 20px; /* Ajustez cette valeur selon vos besoins */
     margin-right: 90px;
-    
+    margin-left: 100px;
 }
+
+#p {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 20px; /* Ajustez cette valeur selon vos besoins */
+  margin-right: 90px;
+ 
+}
+
  .icon{
     width: 70%;
     height: 50%;

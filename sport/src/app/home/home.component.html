@@ -9,36 +9,40 @@
         <a href="#" style="font-size:20px"><i class="fa fa-home"></i>HOME</a>
         <a href="reservation.php" >Services</a>
      
-        <a href="contact.php" >contact</a>
-     
+        <a routerlink="/login" >contact</a>
+      
+
     </div> 
   <form class="search-form" action="#" method="get">
     <input type="text" name="search" placeholder="Search...">
     <button type="submit"><i class="fa fa-search"></i></button>
   </form></nav>
   <main >
-    <section >
-      
-
+    <section>
       <div id="m1">
         <img src="assets/R.jpg" alt="">
        
         <p># Training #since 2020</p>
 
       </div>
-      <div id="m"><a href="commentaires.htm" class="btnone">learn more</a>
-      <a href="home.html" class="btntwo">signup here</a></div>
+      <div id="m"><a (click)="loginAction()" class="btnone">login here</a>
+        <a (click)="signupAction()" class="btntwo">Signup here</a>
+
+      </div>
         <h3>Welcome To FlexiForme </h3>
         <p id="k">"Ensemble repoussons nos limites physiques et <br> mentales dans la bonne humeur"</p>
+  
+
         
     </section>
-</main></header>
+</main>
+</header>
 
 
 
 <div class="card-container">
   <div class="card1">
-      <h2>Hôpital XYZ</h2>
+      <h2>Adresse</h2>
       <hr id="f">
       <p>Adresse : 123, Rue de l'Hôpital</p>
       <hr id="f">
@@ -47,13 +51,13 @@
       <p>Services : Urgences, Consultations, Chirurgie</p>
   </div>
   <div class="card2">
-    <h2>Hôpital XYZ</h2>
+    <h2>Adresse</h2>
     <hr id="f">
     <p>Adresse : 123, Rue de l'Hôpital</p>
     <hr id="f">
     <p>Téléphone : 0123 456 789</p>
     <hr id="f">
-    <p>Services : Urgences, Consultations, Chirurgie</p>
+    <p>Services : training, Consultations, coaching</p>
 </div>
 
   <div class="card1">
@@ -69,5 +73,5 @@
   <div class="card2">
      
       <h2>Informations supplémentaires</h2>
-      <p>Ce centre médical est dédié à fournir des soins de qualité à la communauté locale. Nous sommes là pour vous.</p>
+      <p>Ce centrede training est dédié à fournir des soins de qualité à la communauté locale. Nous sommes là pour vous.</p>
      <br><br>   </div>

@@ -8,6 +8,25 @@ import {FooterComponent} from './footer/footer.component';
 import {FormulaireComponent} from './formulaire/formulaire.component';
 import {FormulComponent} from './formul/formul.component';
 import {RouterLink, RouterOutlet} from '@angular/router';
+import { MaterialModule } from '../maturial.module';
+import {ReactiveFormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+import { ToastrModule } from 'ngx-toastr';
+import { NgxUiLoaderModule, NgxUiLoaderConfig, SPINNER, PB_DIRECTION } from 'ngx-ui-loader';
+
+const NgxUiLoaderConf :NgxUiLoaderConfig={
+  bgsColor: 'red',
+  fgsColor: '#FFFFFF',
+  pbColor: 'red',
+  text: 'Loading...',
+  textColor: '#FFFFFF',
+  textPosition: 'center-center',
+  fgsType: SPINNER.ballSpinClockwise,
+  fgsSize: 100,
+  pbDirection: PB_DIRECTION.leftToRight,
+  pbThickness: 5,
+  
+}
 
 @Component({
   selector: 'app-root',
@@ -15,7 +34,7 @@ import {RouterLink, RouterOutlet} from '@angular/router';
 
   templateUrl: './app.component.html',
 
-  imports: [HomeComponent,TeamComponent,FormulaireComponent,ConceptComponent,ScrollComponent,FormulComponent,FooterComponent, RouterLink, RouterOutlet],
+  imports: [HomeComponent,TeamComponent,FormulaireComponent,ConceptComponent,ScrollComponent,FormulComponent,FooterComponent, RouterLink, RouterOutlet,MaterialModule,ReactiveFormsModule,HttpClientModule,ToastrModule,NgxUiLoaderModule],
 
   styleUrls: ['./home/home.component.css'],
 })

@@ -2,3 +2,15 @@
 *{
     background-color: transparent;
 }@import '~@fortawesome/fontawesome-free/css/all.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.black-snackbar{
+    background: black !important;
+    color: wheat !important;
+}
+.green-snackbar{
+    background: green !important;
+    color: wheat !important;
+}
